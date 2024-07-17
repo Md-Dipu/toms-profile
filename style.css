@@ -82,3 +82,50 @@ html {
     border: none;
     border-radius: 5px;
 }
+
+/* Friends section */
+.friends {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends h1 {
+    margin-bottom: 32px;
+}
+
+.friends>div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    background-color: #a52a2a28;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #8080808b;
+    margin-right: 30px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.card h4 {
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: #636363;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
