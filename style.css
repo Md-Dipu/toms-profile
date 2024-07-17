@@ -129,3 +129,66 @@ html {
     width: 100%;
     margin-bottom: 10px;
 }
+
+/* Contact Us section */
+.contactus {
+    height: 100vh;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -100px;
+}
+
+.contactus>div {
+    width: 35%;
+}
+
+.contactus p {
+    color: #636363;
+    margin-bottom: 24px;
+}
+
+.contactus button {
+    padding: 8px 12px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, tomato, orange);
+    border: none;
+    border-radius: 5px;
+}
+
+.contactus form {
+    text-align: center;
+    padding: 30px 35px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 10px lightgrey;
+}
+
+.contactus form input,
+.contactus form textarea {
+    font-family: "Poppins",
+        sans-serif;
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+}
+
+.contactus form button {
+    display: block;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, tomato, orange);
+    border: none;
+    border-radius: 5px;
+}
