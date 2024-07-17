@@ -192,3 +192,12 @@ html {
     border: none;
     border-radius: 5px;
 }
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
