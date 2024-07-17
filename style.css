@@ -78,7 +78,7 @@ html {
     padding: 8px 12px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(90deg, tomato, orange);
+    background: linear-gradient(90deg, #27a7a7, #1a6e6e);
     border: none;
     border-radius: 5px;
 }
@@ -110,6 +110,9 @@ html {
     border-radius: 5px;
     box-shadow: 3px 3px 10px #8080808b;
     margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card:hover {
@@ -160,16 +163,16 @@ html {
     padding: 8px 12px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(90deg, tomato, orange);
+    background: linear-gradient(90deg, #1e927a, #2dd6b4);
     border: none;
     border-radius: 5px;
 }
 
 .contactus form {
     text-align: center;
-    padding: 30px 35px;
+    padding: 30px 35px 20px;
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid #b5b5b5;
     box-shadow: 3px 3px 10px lightgrey;
 }
 
@@ -188,9 +191,11 @@ html {
     padding: 8px 12px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(90deg, tomato, orange);
+    background: linear-gradient(90deg, #1b5a81, #2371a1);
     border: none;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer */
@@ -200,4 +205,8 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 8px 12px;
+}
+
+.social-icons a {
+    margin-left: 5px;
 }
