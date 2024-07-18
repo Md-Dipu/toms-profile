@@ -136,18 +136,15 @@ html {
 /* Contact Us section */
 .contactus {
     height: 100vh;
-    /* background-color: lightgray; */
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .contactus h1 {
-    width: 100%;
-    text-align: center;
     text-transform: uppercase;
-    margin-bottom: -100px;
+    margin-bottom: 24px;
 }
 
 .contactus>div {
