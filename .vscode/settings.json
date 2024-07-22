@@ -1,0 +1,16 @@
+{
+    "editor.tabSize": 4,
+    "files.autoSave": "afterDelay",
+    "window.autoDetectColorScheme": false,
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.sideBar.location": "left",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.suggest.insertMode": "replace"
+    }
+}
